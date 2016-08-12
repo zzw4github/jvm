@@ -1,0 +1,159 @@
+CA FE BA BE
+00 00
+00 31
+OO 1E
+
+01 OA 00 06 00 17
+02 07 00 18
+03 08 00 19
+04 0A 00 02 00 1A
+05 07 00 1B
+06 07 00 1C
+07 01 00 06  3C 69 6E 69 74 3E <init>
+08 01 00 03 28 29 56 ()V
+09 01 00 04 43 6F 64 65 Code
+10 01 00 0F 4C 69 6E 65 4E 75 69 32 65 72 54 61 62 6C 65 LineNumberTable
+11 01 00 12 4C 6F 63 61 6C 59 61 72 69 61 62 6C 65 54 61 62 6C 65 LocalVariableTable
+12 01 00 04 74 68 69 73 this
+13 01 00 13 4C 53 61 6D 65 53 74 72 69 6E 67 4C 69 74 65 72 61 6C 3B LSameStringLiteral;
+14 01 00 04 6D 61 69 6E main
+15 01 00 16 28 5B 4C 6A 61 76 61 2F 6C 61 6E 67 2F 53 74 72 69 6E 67 3B 29 56 ([Ljava/lang/String;)V
+16 01 00 04 61 72 67 73 args
+17 01 00 13 5B 4C 6A 61 76 61 2F 6C 61 6E 67 2F 53 74 72 69 6E 67 3B [Ljava/lang/String;
+18 01 00 08 61 62 63 31 5F 72 65 66 abc1_ref
+19 01 00 12 4C 6A 61 76 61 2F 6C 61 6E 67 2F 53 74 69 6E 67 3B Ljava/lang/String;
+20 01 00 07 61 62 63 5F 72 65 66 abc_ref
+21 01 00 0A 53 6F 75 72 63 65 46 69 6C 65 SourceFile
+22 01 00 16 53 61 6D 65 53 74 72 69 6E 67 4C 69 74 65 72 64 6C 2E 6A 61 76 61 SameStringLiteral.java
+23 0C 00 07 00 08
+24 01 00 10 6A 61 76 61 2F 6C 61 6E 67 2F 53 74 69 6E 67 java/lang/String
+25 01 00 03 61 62 63 abc 
+26 0C 00 07 00 1D 
+27 01 00 11 53 61 6D 65 53 74 72 69 6E 67 4C 69 7465 75 61 6C SameStringLiteral
+28 01 00 10 6A 61 76 61 2F 6C 61 6E 67 2F 4F 62 6A 65 63 74  java/lang/Object
+29 01 00 15 28 4C 6A 61 2F 6C 61 6E 67 2F 53 74 72 69 6E 67 3B 29 56  (Ljava/lang/String;)V
+
+access flag
+00 21 
+this class
+00 05
+super class
+00 06
+INTERFACE_COUNT
+00 00
+INTERFACES
+没有实现接口，所以为空
+FIELDS COUNT
+00 00
+FIELD_INFO
+没有实现接口，所以为空
+METHODS_COUNT
+00 02 
+method info
+  00 01 access_flag public
+  00 07 name_index <init>
+  00 08 descriptor_index ()V
+  00 01 attribute_count 1
+  attribute_info
+    00 09 attribute_name_index code
+    00 00 00 2F attribute_length
+    00 01 max_stack
+    00 01 max_locals
+    00 00 00 05 code_length
+    2A B7 00 01 B1 code[5]
+    	2A aload_0
+			B7 00 01 invokespecial nop #1 java/lang/Object<init>()V 初始化Object对象
+			B1 return
+   00 00 exception_table_length
+   00 02 attributes_count
+   attribute_info attributes[attributes_count];
+   00 0A  attribute_name_index LineNumberTable
+   00 00 00 06 attribute_length;
+   00 01 u2 line_number_table_length;
+     00 00 u2 start_pc;
+     00 04 u2 line_number;
+   00 0B attribute_name_index  LocalVariableTable
+   00 00 00 0C attribute_length;
+   00 01 local_variable_table_length
+     00 00 u2 start_pc;
+     00 05 u2 length;
+     00 0C u2 name_index;
+     00 0D u2 descriptor_index; 
+     00 00 u2 index;
+   00 09 ACC_PUBLIC ACC_STATIC
+   00 0E u2 name_index main
+   00 0F descriptor_index
+   00 01 attributes_count
+   	 attribute_info attributes[attributes_count];
+   	 00 09
+   	 00 00 00 54
+   	 u1 info[attribute_length];
+   	 00 03
+   	 00 03
+   	  00 00 00 0E
+   	  BB 00 02 59 12 03 B7 00 04 4C 12 03 4D B1 u1 code[code_length];
+   	  	BB 00 02   new nop#02(java/lang/String) 初始化一个 String 对象
+					59 dup                                     (dup : Duplicate the top operand stack value) 复制这个String对象，并将String’放在operandstack上
+					12 03 ldc #03(abc)                            (ldc : Push item from run-time constant pool) 将value(abc)放operandstack上
+					B7 00 04  invokespecial nop #04 java/lang/String <init>(Ljava/lang/String;)V 实例化abc的String对象
+					4C astore_1  String(abc)对象的存储用 存储到 本地变量
+					12 03 ldc #05(abcd)  (ldc : Push item from run-time constant pool) 将(value) 放到operandstack上
+					4D astore_2 abde的引用存储到本地变量
+					B1 return
+			00 00
+			00 02  u2 attributes_count;
+			00 0A  attribute_name_index LineNumberTable
+			00 00 00 0E u4 attribute_length;
+			00 03 u2 line_number_table_length;
+			 00 00 u2 start_pc;
+	 		 00 06 u2 line_number;
+	 	   00 0A u2 start_pc;
+	 		 00 07 u2 line_number;
+	 		 00 0D u2 start_pc;
+	 		 00 08 u2 line_number;
+	 	  00 0B  attribute_name_index LocalVariableTable
+	 	  00 00 00 20 attribute_length;
+	 	  00 03 local_variable_table_length
+	 	    00 00 u2 start_pc;
+	 	    00 0E u2 length;
+	 	    00 10 u2 name_index; args
+	 	    00 11 descriptor_index; [Ljava/lang/String;
+	 	    00 00 index;
+        00 0A u2 start_pc;
+        00 04 u2 length;
+        00 12 u2 name_index; abc1_ref
+        00 13 u2 descriptor_index; Ljava/lang/String;
+        00 01 u2 index;
+        00 0D u2 start_pc;
+        00 01 u2 length; 
+        00 14 u2 name_index; abc_ref
+        00 13 u2 descriptor_index Ljava/lang/String;
+        00 02 u2 index;	 	 
+ATTRIBUTES_COUNT
+00 01
+ATTRIBTES
+ATTRIBUTE_INFO:
+00 15 attribute_name_index SourceFile
+00 00 00 02  attribute_length
+00 0F sourcefile_index SameStringLiteral.java
+	 	   
+
+	 	   
+	 	  
+				
+	 	  
+			
+			
+			
+   	 
+   	 
+     
+     
+   
+   
+
+
+
+
+
+
